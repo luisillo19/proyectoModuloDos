@@ -360,16 +360,22 @@ a{
   margin-bottom: 20px;
 }
 
+
 input[type="text"]{
   width: 90%;
 }
 
-label{
+.form__name-label,
+.form__email-label{
   margin: 0px 1.25rem;
   margin-top: 1.875rem;
   margin-bottom: .9375rem;
   font-size: 1.25rem;
   color: var(--text-color);
+}
+
+.form__email-label{
+  margin-top: 0;
 }
 
 .form__btn{
