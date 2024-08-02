@@ -1,39 +1,299 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Natural Boost - Zumo Detox</title>
-    <meta name="description" content="Natural Boost ofrece los mejores zumos detox y vitaminas, hechos con ingredientes frescos y naturales. Descubre nuestros sabores y beneficios.">
-    <meta name="keywords" content="zumos detox, vitaminas, natural, salud, bienestar, sostenibilidad">
-    <meta name="author" content="Natural Boost - Luis Carlos Giraldo">
-    <meta property="og:title" content="Natural Boost - Zumo Detox">
-    <meta property="og:description" content="Natural Boost ofrece los mejores zumos detox y vitaminas, hechos con ingredientes frescos y naturales. Descubre nuestros sabores y beneficios.">
-    <meta property="og:image" content="https://naturalboost.com/images/og-image.jpg">
-    <meta property="og:url" content="https://naturalboost.com">
-    
-    
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Natural Boost - Zumo Detox">
-    <meta name="twitter:description" content="Natural Boost ofrece los mejores zumos detox y vitaminas, hechos con ingredientes frescos y naturales. Descubre nuestros sabores y beneficios.">
-    <meta name="twitter:image" content="https://naturalboost.com/images/twitter-image.jpg">
-    
-    <link rel="icon" href="/archivosFavicon/favicon.ico" type="image/x-icon">
-    <link rel="manifest" href="site.webmanifest" />
-    <link rel="apple-touch-icon" href="icon.png" />
-    <link rel="stylesheet" href="css/style.css" />
-    <meta name="theme-color" content="#fafafa" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>Natural Boost - Zumo Detox</title>
+		<meta
+			name="description"
+			content="Natural Boost ofrece los mejores zumos detox y vitaminas, hechos con ingredientes frescos y naturales. Descubre nuestros sabores y beneficios."
+		/>
+		<meta
+			name="keywords"
+			content="zumos detox, vitaminas, natural, salud, bienestar, sostenibilidad"
+		/>
+		<meta name="author" content="Natural Boost - Luis Carlos Giraldo" />
+		<meta property="og:title" content="Natural Boost - Zumo Detox" />
+		<meta
+			property="og:description"
+			content="Natural Boost ofrece los mejores zumos detox y vitaminas, hechos con ingredientes frescos y naturales. Descubre nuestros sabores y beneficios."
+		/>
+		<meta
+			property="og:image"
+			content="https://naturalboost.com/images/og-image.jpg"
+		/>
+		<meta property="og:url" content="https://naturalboost.com" />
+		<meta property="og:type" content="website" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:title" content="Natural Boost - Zumo Detox" />
+		<meta
+			name="twitter:description"
+			content="Natural Boost ofrece los mejores zumos detox y vitaminas, hechos con ingredientes frescos y naturales. Descubre nuestros sabores y beneficios."
+		/>
+		<meta
+			name="twitter:image"
+			content="https://naturalboost.com/images/twitter-image.jpg"
+		/>
 
-    <script src="/js/main.js" defer></script>
+		<link
+			rel="icon"
+			href="/archivosFavicon/favicon.ico"
+			type="image/x-icon"
+		/>
+		<link rel="manifest" href="site.webmanifest" />
+		<link rel="apple-touch-icon" href="icon.png" />
+		<link rel="stylesheet" href="css/style.css" />
+		<meta name="theme-color" content="#fafafa" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+			rel="stylesheet"
+		/>
 
-  </head>
-  <body>
-    
-    
-  </body>
+		<script src="/js/menuHamburguesa.js" defer></script>
+	</head>
+	<body>
+		<header class="header">
+			<section class="header__image-links">
+				<a href="index.html" class="header__link-logo">
+					<img
+						src="/img/desktop/LOGO NATURAL BOOST.avif"
+						alt="Logo natural boost"
+						class="header__logo"
+					/>
+				</a>
+				<img
+					src="/svg/menuHamburguesa.svg"
+					alt="menu hamburguesa"
+					class="header__hamburger"
+					id="menuHamburguesa"
+				/>
+
+				<nav class="header__nav-desktop" id="headerNavDesktop">
+					<section class="nav__items-desktop">
+						<ul class="nav__items-list">
+							<li>
+								<a href="menu.html" class="nav__links-desktop">Menu</a>
+							</li>
+							<li>
+								<a href="beneficios.html"class="nav__links-desktop">Beneficios</a>
+							</li>
+							<li>
+								<a href="sostenibilidad.html"class="nav__links-desktop">Sostenibilidad</a>
+							</li>
+							<li>
+								<a href="faq.html" class="nav__links-desktop">FAQ</a>
+							</li>
+							<li>
+								<a href="about.html" class="nav__links-desktop">About</a>
+							</li>
+						</ul>
+					</section>
+				</nav>
+			</section>
+
+			<nav class="header__nav" id="headerNav">
+				<section class="nav__items">
+					<img
+						class="nav__boton-x"
+						src="/svg/X.svg"
+						alt="Botón de salir"
+						id="botonCerrarNav"
+					/>
+					<a href="menu.html" class="nav__links">Menu</a>
+					<a href="beneficios.html" class="nav__links">Beneficios</a>
+					<a href="sostenibilidad.html" class="nav__links"
+						>Sostenibilidad</a
+					>
+					<a href="faq.html" class="nav__links">FAQ</a>
+					<a href="about.html" class="nav__links">About</a>
+				</section>
+			</nav>
+
+			<section class="section__titulo">
+				<h1 class="titulo__marca">
+					NATURAL <br />
+					BOOST
+				</h1>
+				<p class="titulo__subtitle-eslogan">
+					Potencia tu vida, bebe salud
+				</p>
+			</section>
+
+			<img
+				class="header__main-image"
+				src="/img/desktop/pixelcut-export.avif"
+			/>
+		</header>
+
+		<main class="main">
+			<section class="main__introduccion">
+				<h2 class="main__subtitulo subtitulo__revitalizate">
+					¡Revitalízate con Natural Boost!
+				</h2>
+				<p class="main__content content__revitalizate">
+					En Natural Boost, transformamos la naturaleza en deliciosos
+					zumos detox y vitaminas. Descubre sabores vibrantes,
+					beneficios saludables y nuestra filosofía sostenible. ¡Únete
+					a nosotros en este viaje hacia una vida más saludable y
+					energizante!
+				</p>
+        <section class="main__product-image-desktop">
+          <img
+            src="/img/desktop/NATUAL BOOST PORTADA SIN FONDO.avif"
+            alt=""
+            class="main__image-content main__products"
+          />
+        </section>
+
+			</section>
+
+			<section class="main__product-image">
+				<img
+					src="/img/desktop/NATUAL BOOST PORTADA SIN FONDO.avif"
+					alt=""
+					class="main__image-content main__products"
+				/>
+			</section>
+
+			<section class="main__nuestros-productos main__section">
+				<h3 class="main__subtitulo subtitulo__nuestros-productos">Conoce nuestros productos</h3>
+				<p class="main__content content__nuestros-productos">
+					En Natural Boost, ofrecemos bebidas saludables y
+					revitalizantes, elaboradas con ingredientes frescos y
+					naturales. Cada producto está diseñado para mejorar tu
+					bienestar, proporcionando nutrientes esenciales en cada
+					sorbo. Comprometidos con la calidad y la sostenibilidad,
+					nuestras bebidas no solo son deliciosas, sino también una
+					elección responsable para el medio ambiente. Explora
+					nuestras opciones y descubre cómo Natural Boost puede
+					aportar frescura y energía a tu día.
+				</p>
+				<img
+					src="/img/desktop/todos los zumos natural boost.avif"
+					alt=""
+					class="main__image-content all__products"
+				/>
+				<a href="menu.html" class="main__btn btn__productos">Ir a productos</a>
+			</section>
+
+      <section class="container__sections">
+
+        <section class="main__conocenos-mejor main__section">
+          <h3 class="main__subtitulo subtitulo__conocenos">Conócenos Mejor</h3>
+          <p class="main__content content__conocenos">
+            Descubre la historia detrás de Natural Boost y nuestro
+            compromiso con la calidad y la sostenibilidad. Visita
+            nuestra sección "Sobre Nosotros" para conocer más sobre
+            nuestra misión, valores y el equipo apasionado que trabaja
+            para traerte lo mejor de la naturaleza. ¡Te invitamos a
+            unirte a nuestra comunidad y ser parte del cambio hacia un
+            estilo de vida más saludable y sostenible!
+          </p>
+          <img
+            src="/svg/user-group-70.svg"
+            alt="grupo de trabajadores"
+            class="main__image-content image__grupo"
+          />
+          <a href="menu.html" class="main__btn btn__conocenos">Conócenos</a>
+        </section>
+  
+        <section class="main__nuestro-compromiso main__section">
+          <h3 class="main__subtitulo subtitulo__compromiso">Nuestro Compromiso Verde</h3>
+          <p class="main__content content__compromiso">
+            Descubre cómo en Natural Boost nos dedicamos a proteger el
+            planeta. Desde envases reciclables hasta prácticas
+            sostenibles, estamos comprometidos con el cuidado del medio
+            ambiente. Haz clic aquí para conocer más sobre nuestras
+            iniciativas ecológicas y cómo trabajamos para un futuro más
+            verde y saludable.
+          </p>
+          <img
+            src="/svg/ecology-76-7de93.svg"
+            alt="imagen ecologica"
+            class="main__image-content image__compromiso-verde"
+          />
+          <a href="menu.html" class="main__btn btn__compromiso">Saber más</a>
+        </section>
+
+      </section>
+
+			<section class="complete__form">
+				<h3 class="main__subtitulo subtitulo__form">¡¡No te pierdas nada!!</h3>
+				<p class="main__content form__text-content">
+					subscribete a nuestra newsletter y mantente al día de
+					nuestros productos
+				</p>
+        <form action="main.php" class="form" id="form">
+          <label for="name" class="form__name-label">Nombre</label>
+          <input
+            required
+            type="text"
+            class="form__input-name"
+            id="name"
+          />
+  
+          <label for="email" class="form__email-label">email</label>
+          <input
+            required
+            type="email"
+            class="form__input-email"
+            id="email"
+          />
+  
+          <button class="main__btn form__btn" type="submit">
+            Subscribirse
+          </button>
+        </form>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<section class="footer__links-legales">
+				<a href="terminosUso.html" class="links__legales-terminos-uso"
+					>Terminos de uso</a
+				>
+				<a href="LICENSE" class="links__legales-aviso-legal"
+					>Aviso legal</a
+				>
+				<a
+					href="politicaPrivacidad.html"
+					class="links__legales-politica-privacidad"
+					>Política de Privacidad</a
+				>
+			</section>
+
+			<section class="footer__social-networks">
+				<img
+					src="/svg/logoFacebook.svg"
+					alt="Logo de Facebook"
+					class="social-networks-facebook"
+				/>
+				<img
+					src="/svg/logoInstagram.svg"
+					alt="Logo de Instagram"
+					class="social-networks-instagram"
+				/>
+				<img
+					src="/svg/logoPinterest.svg"
+					alt="Logo de Pinterest"
+					class="social-networks-pinterest"
+				/>
+				<img
+					src="/svg/logoX.svg"
+					alt="Logo de X"
+					class="social-networks-x"
+				/>
+			</section>
+
+			<section class="footer__derechos-reservados">
+				<p class="footer__copyright">&copy;2024 NaturalBoost</p>
+				<p class="footer__derechos-reservados">
+					Todos los derechos reservados
+				</p>
+			</section>
+		</footer>
+	</body>
 </html>

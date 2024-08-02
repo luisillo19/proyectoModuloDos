@@ -1,0 +1,142 @@
+@import url(normalize.min.css);
+@import url(reset.css);
+
+html{
+    font-size: 10px;
+}
+
+body{
+    height: 100%;
+    background: url(/img/desktop/fondo__zumo.avif) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: montserrat;
+    line-height: 1;
+}
+
+.capa__opacity{
+    position: relative;
+    width: 100%;
+    height: 100dvh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.1),
+        rgba(0,0,0,0.2)
+    )
+    ,url(/images/16.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+    width: 350px;
+    height: 420px;
+    
+    
+
+    color: white;
+    background-color: rgba(0,0,0,0.25);
+    border-radius: .5rem;
+    margin: 0rem 1.5625rem;
+    padding: 1.25rem .625rem;
+
+}
+
+.titulo{
+    font-size: 2.1875rem;
+    font-weight: 700;
+    color: white;
+    padding: 1.875rem;
+}
+
+.subtitulo{
+    font-size: 1.875rem;
+    color: white;
+    font-weight: 700;
+    padding: 0.1875rem;
+    
+
+}
+
+.text__content{
+    font-size: 1.4375rem;
+    padding: 0rem 3.125rem;
+}
+
+.subtitle__lanzamiento{
+    font-size: 2.1875rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+span{
+    font-size: 3.25rem;
+    font-weight: 700;
+}
+
+.contador{
+    padding-bottom: 1.875rem;
+}
+
+@media screen and (min-width: 1200px){
+
+    body{
+        background: url(/img/desktop/todos\ los\ zumos\ natural\ boost\ con\ fond.avif) center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .content{
+        width: 80%;
+        height: 70vh;
+    }
+
+    .titulo{
+        font-size: 3.75rem;
+    }
+    
+    .subtitulo{
+        font-size: 3.125rem;
+    }
+
+    .text__content{
+        font-size: 3.125rem;
+    }
+
+    .subtitle__lanzamiento{
+        font-size: 3.75rem;
+        
+    }
+
+    span{
+        font-size: 5rem;
+    }
+
+    .contador{
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        
+    }
+
+
+
+
+}
+
