@@ -690,6 +690,212 @@ main{
 
 
 
-/* *******************************************************************
-******************************MENU*****************************
-******************************************************************* */
+  /* **************************MENU.html****************** */
+  @media screen and (min-width: 1200px){ 
+
+    .subtitle__nuestros-productos,
+    .subtitle__green-vitality,
+    .subtitle__red-energy,
+    .subtitle__yellow-sunshine {
+      font-size: 3.125rem;
+      text-align: center;
+    }
+
+    .container__first-product,
+    .container__second-product,
+    .container__third-product{
+
+      display: flex;
+    }
+
+    .image__title-green-vitality,
+    .image__title-yellow-sunshine,
+    .image__title-red-energy{
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: space-between;
+    }
+
+    .content__green-vitality,
+    .content__yellow-sunshine,
+    .content__red-energy{
+      font-size: 2.5rem;
+      width: 400px;
+    }
+
+    .image__container{
+      margin: 1.875rem;
+      margin-top: 2.5rem;
+      margin-bottom: 3.75rem;
+      border-radius: .5rem;
+    }
+
+    .subtitle__nuestros-productos{
+      margin-top: 4.6875rem;
+      margin-bottom: 4.6875rem;
+      text-align: center;
+    }
+
+    .container__content-green-vitality,
+    .container__content-yellow-sunshine,
+    .container__content-red-energy{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+      margin: 3.375rem 2.00rem;
+    }
+
+    
+
+  }
+
+  /* **********************BENEFICIOS.html (mobile)****************** */
+
+  .beneficios__container{
+    width: 100%;
+  }
+
+  .container__image-content{
+    width: 100%;
+    height: 300px;
+
+    background: url(../img/desktop/digestivo.avif) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container__section-content{
+    background-color: var(--background-section);
+    padding: .9375rem 2.1875rem;
+    border-top: 1px solid var(--text-color);
+  }
+
+  .text__content-introduction{
+    font-size: var(--parrafos-contenido);
+    margin: 2.1875rem 1.25rem;
+    line-height: 1.3;
+    color: var(--text-color);
+    
+  }
+  
+  .container__title-content{
+    font-size: 1.5rem;
+    margin-block: .9375rem;
+    color: var(--text-color);
+    text-align: center;
+  }
+  
+  .container__content-text{
+    font-size: var(--parrafos-contenido);
+    margin-top: .9375rem;
+    margin-bottom: 1.25rem;
+    color: var(--text-color);
+  }
+
+  .container__section-content{
+    width: 100%;
+    height: 42dvh;
+  }
+
+  .container__image-energy{
+    background: url(../img/desktop/felicidad\ animo.avif) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container__image-inmunologico{
+    background: url(../img/desktop/fuerte.avif) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .container__image-weight-loss{
+    background: url(../img/desktop/perdida\ de\ peso.avif) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+ 
+
+  /* **********************BENEFICIOS.html (desktop)****************** */
+  @media screen and (min-width: 1200px){
+
+    .text__content-introduction{
+      margin: 2.8125rem 7.5rem;
+      font-size: 3.125rem;
+    }
+
+    .container__title-content{
+      font-size: var(--titulo-contenido-desktop);
+
+    }
+
+    .container__content-text{
+      font-size: var(--parrafos-contenido-desktop);
+      line-height: 1.3;
+    }
+
+    .container__section-content{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row-reverse;
+      padding: 0rem;
+      margin-left: 0rem;
+      width: 100%;
+      height: 50vh;
+    }
+
+    .container__title-content-text{
+      
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;gap: 1.25rem;
+
+      margin: 0px 0px 0px 3.75rem;
+      width: 50%;
+    }
+
+    .energy__content,
+    .weight-loss__content{
+      flex-direction: row;
+      margin: 0rem;
+    } 
+
+    .container__energy-content{
+      margin-right: 1.875rem;
+    }
+
+    .container__weight-loss-content{
+      margin-right: 1.875rem;
+    }
+
+    .container__title-content{
+      padding-top: 1.25rem;
+    }
+
+    .container__content-text{
+      height: 100%;
+      width: 100%;
+    }
+
+    .container__image-content{
+      width: 50%;
+      height: 100%;
+    }
+
+  }
+
+   /* **********************SOSTENIBILIDAD.html (desktop)****************** */
+
+   
+
+
+
+
+
+
+
+
