@@ -29,8 +29,9 @@
   /* mobile */
   --titulo-banner: 5.3125rem;
   --subtitulo-banner: 2.5rem;
-  --titulo-contenido: 2rem ;
+  --titulo-contenido: 1.5rem ;
   --parrafos-contenido: 1.25rem;
+  --subtitle-section: 1.5rem;
 
   /* desktop */
   --titulo-banner-desktop: 10.5rem;
@@ -275,6 +276,7 @@ a{
   text-align: left;
   padding: 1.25rem 1.25px;
   line-height: 1.3;
+  font-weight: 200;
 }
 
 .main__section{
@@ -879,6 +881,7 @@ main{
     .container__content-text{
       height: 100%;
       width: 100%;
+      font-weight: 200;
     }
 
     .container__image-content{
@@ -888,10 +891,213 @@ main{
 
   }
 
-   /* **********************SOSTENIBILIDAD.html (desktop)****************** */
+/* **********************SOSTENIBILIDAD.html (movil)****************** */
 
+.main__container{
+  max-width: 90%;
+}
+
+.container__sostenibilidad{
+  background-color: var(--background-section);
+  border: 1px solid var(--text-color);
+  border-radius: 8px;
+  margin: 1.25rem 0rem;
+}
    
+.medio-ambiente-title{
+  font-size: 2rem;
+  color: var(--text-color);
+  text-align: center;
+  margin: 1.25rem;
+  margin-bottom: 0rem;
+}
 
+.medio-ambiente__text-content,
+.calentamiento-global__text-content,
+.reciclaje__text-content{
+  font-size: var(--parrafos-contenido);
+  font-weight: 200;
+}
+
+.medio-ambiente__text-content,
+.calentamiento-global__text-content,
+.reciclaje__text-content{
+  margin: 1.25rem;
+  margin-top: 0rem;
+  color: var(--text-color);
+}
+
+.sostenibilidad__image-text-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+.prueba__medio-ambiente{
+
+  width: 19.625rem;
+  height: 15.625rem;
+
+  background: url(../svg/ecology-88.svg) center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.prueba__calentamiento{
+
+  width: 19.625rem;
+  height: 15.625rem;
+
+  background: url(../svg/global-warming-69.svg) center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.prueba__reciclaje{
+
+  width: 19.625rem;
+  height: 15.625rem;
+
+  background: url(../svg/recycling-4-66.svg) center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* **********************SOSTENIBILIDAD.html (desktop)****************** */
+
+@media screen and (min-width: 1200px) {
+  
+  .main__container{
+    margin: 5.625rem 0px;
+  }
+
+  .sostenibilidad__image-text-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  
+  }
+
+  .medio-ambiente__text-content,
+  .calentamiento-global__text-content,
+  .reciclaje__text-content{
+
+    font-size: var(--parrafos-contenido-desktop);
+    color: var(--text-color);
+  }
+
+  .medio-ambiente-title{
+    font-size: var(--titulo-contenido-desktop);
+    color: var(--text-color);
+    margin-bottom: 5rem;
+    margin-top: 3.125rem;
+  }
+
+  .reciclaje__text-content,
+  .medio-ambiente__text-content,
+  .calentamiento-global__text-content{
+    width: 50%;
+    margin-left: 5.625rem;
+    margin-bottom: 5.625rem;
+    font-weight: 200;
+  }
+
+  .prueba__medio-ambiente,
+  .prueba__calentamiento,
+  .prueba__reciclaje{
+    width: 52.625rem;
+    height: 34.625rem;
+    margin-bottom: 90px;
+    margin-right: 50px;
+  }
+
+  .prueba__calentamiento{
+    width: 47.625rem;
+    height: 38.625rem;
+  }
+
+  .calentamiento-global__text-image-content{
+    display: flex;
+    flex-direction: row-reverse;
+
+  }
+
+  .calentamiento-global__text-content{
+    margin-left: 0rem;
+    margin-right: 5.625rem;
+  }
+
+}
+
+/* **********************FAQ.html (MOBILE)****************** */
+
+.container__faq{
+  max-width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.25rem;
+  flex-direction: column;
+  margin-top: 1.25rem;
+}
+
+
+.questions__title{
+  font-size: var(--titulo-contenido);
+  text-align: center;
+  color: var(--text-color);
+  padding: 1.25rem;
+}
+
+.questions__content{
+  font-size: var(--parrafos-contenido);
+  color: var(--text-color);
+  font-weight: 200;
+  padding: 0rem 1.25rem 1.25rem 1.25rem
+}
+
+.container__questions-general{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+
+  background-color: var(--background-section);
+  border: 1px solid var(--text-color);
+  border-radius: .5rem;
+  height: 15.625rem;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.container__image-footer-faq{
+  width: 100%;
+  height: 9.375rem;
+
+  margin-top: .9375rem;
+  background: url(../img/desktop/boteFrutas.avif) center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 1200px){
+  .container__faq{
+    max-width: 90%;
+    
+  }
+
+  .questions__title{
+
+  }
+
+  .questions__content{
+
+  }
+
+  
+}
 
 
 
