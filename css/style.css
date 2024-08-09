@@ -255,7 +255,7 @@ a{
 
 .main__introduccion{
   width: 100%;
-  height: 15.625rem;
+  height: 21.625rem;
   border: 1px solid var(--text-color);
 
   text-align: center;
@@ -1122,6 +1122,10 @@ main{
 
 /* **********************ABOUT.html (MOBILE)****************** */
 
+.titulo__marca-acerca-de-nosotros{
+  font-size: 4.125rem;
+  text-align: center;
+}
 .container__acerca-de-nosotros{
   display: flex;
   justify-content: center;
@@ -1207,7 +1211,7 @@ main{
   .container__image-nosotros-zumos{
     width: fit-content;
     height: auto;
-    display: flex;
+    display: flex;__
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
@@ -1227,6 +1231,10 @@ main{
 
   .image__fruits{
     height: 38.25rem;
+  }
+
+  .titulo__marca-acerca-de-nosotros{
+    
   }
 
 }
